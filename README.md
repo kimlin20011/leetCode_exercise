@@ -1,26 +1,40 @@
-# leetCode 筆記
+面試準備 + Leetcode 
+===
 
-# Linked List
+Leetcode相關
+---
+- [leetCode準備筆記](https://hackmd.io/@kimlin20011/rkGs-ZjJd)
+- [google面試相關筆記](https://hackmd.io/@kimlin20011/B171ilT-u)
 
-- https://youtu.be/0czlvlqg5xw
 
-* 使用快慢指針概念（Two pointers）
-  - 兩個指針同向而行
-  - 一快一慢，距離多少？
-  - 兩個指針的移動速度
+array
+---
 
-- 找中點：
-  - 快指針速度為滿指針的兩倍。當快走終點(n/2)，慢指針當好走到中點(n/2)
+stack
+---
 
-```javascript=
-function midpoint(list) {
-  let fast = list.head;
-  let slow = list.head;
+link list
+---
 
-  while (fast != null && fast.next != null) {
-    slow = slow.next;
-    fast = fast.next.next;
-  }
-  return slow; //回傳中點
-}
-```
+
+heap
+---
+
+tree
+---
+
+search
+---
+
+sort
+---
+
+graph
+---
+
+
+字卡筆記
+---
+- [link list快慢指針](https://hackmd.io/@kimlin20011/S1FwHUkGd)
+
+###### tags: `就活`
